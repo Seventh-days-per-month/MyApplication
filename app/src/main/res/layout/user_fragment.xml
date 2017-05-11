@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray_bd"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/timg"
+                android:alpha="30"
+                android:padding="30dp"
+
+                >
+
+                <ImageView
+                    android:background="@drawable/shape"
+                    android:id="@+id/iv_personal_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/tx1" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="用户喵喵喵"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这个人比较懒，没有留下什么话。"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                android:background="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btn_change"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="修改个人资料"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+
+                >
+
+            </Button>
+
+            <Button
+
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我的喜欢"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+                >
+            </Button>
+            <Button
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我的缓存"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+                >
+            </Button>
+
+            <Button
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="消息中心"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+                >
+            </Button>
+
+            <Button
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="联系我们"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+                >
+            </Button>
+
+            <Button
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退出登录"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:drawableRight="@mipmap/arrow_right"
+                >
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

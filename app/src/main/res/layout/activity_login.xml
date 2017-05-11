@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray_bd"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:id="@+id/block1"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_username"
+            android:hint="请输入您的用户名"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_password"
+            android:hint="请输入您的密码"
+            android:paddingLeft="10dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/block1"
+        android:layout_alignLeft="@+id/block1"
+        android:layout_alignRight="@+id/block1"
+        android:text="登录"
+        android:id="@+id/btn_login"
+
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="测试"
+        android:textSize="20sp"
+        android:id="@+id/textview"
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/block1"
+        android:layout_alignRight="@+id/block1"
+        android:text="跳转"
+        android:id="@+id/btn_jump"
+        />
+
+</RelativeLayout>
